@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM continuumio/miniconda3:4.8.3
 
 RUN apt-get update && apt-get install -y \
         build-essential \
